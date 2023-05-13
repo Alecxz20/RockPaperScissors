@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissor</title>
+    <script
+      src="https://kit.fontawesome.com/f598becc3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <main class="container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="answers">
+        <i class="element fa-solid fa-hand-back-fist"></i>
+        <i class="element fa-solid fa-paper-plane"></i>
+        <i class="element fa-solid fa-scissors"></i>
+      </div>
+      <div class="instruction">
+        <i class="fa-sharp fa-solid fa-arrow-up"></i>
+        <p>Pick one</p>
+      </div>
+      <div class="score">
+        <div class="score__player">
+          <p class="score__player__title">Player</p>
+          <p class="score__player__result">0</p>
+        </div>
+        <div class="score__pc">
+          <p class="score__pc__title">PC</p>
+          <p class="score__pc__result">0</p>
+        </div>
+      </div>
+      <div class="text">
+        <p>Are you ready to play?</p>
+      </div>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>

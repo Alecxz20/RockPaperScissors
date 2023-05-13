@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #334155;
+  color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.answers {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.instruction {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.element {
+  padding: 20px;
+}
+
+.element:hover {
+  background-color: #f8fafc;
+  color: #334155;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (min-width: 620px) {
+  .container {
+    width: 580px;
+  }
+}
