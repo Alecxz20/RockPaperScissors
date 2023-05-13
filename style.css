@@ -36,6 +36,7 @@ html {
   gap: 100px;
   font-weight: bold;
   font-size: 18px;
+  margin-top: 30px;
 }
 
 .text {
@@ -52,6 +53,25 @@ html {
   color: #334155;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.score__player__result,
+.score__pc__result {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.replay {
+  padding: 12px 24px;
+  border: transparent;
+  font-size: 18px;
+  border-radius: 12px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
 
 @media (min-width: 620px) {
