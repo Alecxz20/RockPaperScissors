@@ -93,11 +93,11 @@ function afterClick(e) {
       btn.classList.remove("hide");
     }
     doIContinue();
-  } else {
-    btn.addEventListener("click", resetAll);
   }
 }
 
 elements.forEach(function (item) {
   item.addEventListener("click", afterClick);
 });
+
+btn.addEventListener("click", resetAll);
